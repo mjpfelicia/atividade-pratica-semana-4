@@ -38,12 +38,16 @@ a {
 */
 .conteiner {
     /* 1a. largura exata de 80% da largura da área de visualização do navegador */
+    width: 80vw;
 
     /* 1b. margem superior e inferior nulas e margens laterais automáticas para centralizar a página */
+    margin: 0 auto;
 
     /* 1c. altura mínima de 100% da altura da área de visualização do navegador */
+    height: 100vh;
 
     /* 1d. posicionamento relativo */
+    position: relative;
 
 }
 
@@ -55,13 +59,20 @@ a {
     background-color: white;
     /* 2a. largura exata de 18% da largura da área de visualização do navegador */
 
+    width: 18%;
+
     /* 2b. poscionamento fixo */
+    position: fixed;
 
     /* 2c. distância de 0px para a borda superior da área de visualização do navegador */
+    border-top: 0;
 
     /* 2d. algura de 100% da altura da área de visualização do navegador */
+    height: 100vw;
+
 
     /* 2e. margens internas de 15px em todos os lados */
+    padding: 15px;
 
 }
 
@@ -87,17 +98,26 @@ a {
 }
 
 /*
-3. O seletor ".areadireita" a seguir configura a área de conteúdo à direita, que mostra todas as seções do site. Ele define uma largura fixa de 62% da largura da área de visualização do navegador. Define também o posicionamento como relativo, de forma que a região seja renderizada a uma distância constante de onde ela seria renderizada caso fosse estática. Essa distância é de 18% da largura da área de visualização para a lateral esquerda. Ainda, o seletor define que temos uma margem interna de 15px em todos os lados dessa região. Complete o seletor a seguir com as propriedades necessárias para alcançar essa configuração.
+3. O seletor ".areadireita" a seguir configura a área de conteúdo à direita, que mostra todas as seções do site.
+ Ele define uma largura fixa de 62% da largura da área de visualização do navegador.
+  Define também o posicionamento como relativo, de forma que a região seja renderizada a uma distância constante de onde ela seria renderizada caso fosse estática.
+   Essa distância é de 18% da largura da área de visualização para a lateral esquerda. 
+   Ainda, o seletor define que temos uma margem interna de 15px em todos os lados dessa região.
+    Complete o seletor a seguir com as propriedades necessárias para alcançar essa configuração.
 */
 .areadireita {
     background-color: #eee;
     /* 3a. largura fixa de 62% da largura da área de visualização do navegador */
+    width: 62vw;
 
     /* 3b. poscionamento relativo */
+    position: relative;
 
     /* 3c. distância de 18% da largura da área de visualização do navegador para a lateral esquerda */
+    left: 18vw;
 
     /* 3d. margem interna de 15px em todos os lados */
+    padding: 15px;
 
 }
 
@@ -146,8 +166,10 @@ a {
 */
 .sobre .hero .imagem {
     /* 4a. flutuação à direita */
+    float: left;
 
     /* 4b. largura fixa de 65% do elemento pai */
+    width: 65%;
 
 }
 
