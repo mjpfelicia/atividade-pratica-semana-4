@@ -58,7 +58,6 @@ a {
 .areaesquerda {
     background-color: white;
     /* 2a. largura exata de 18% da largura da área de visualização do navegador */
-
     width: 18%;
 
     /* 2b. poscionamento fixo */
@@ -166,7 +165,7 @@ a {
 */
 .sobre .hero .imagem {
     /* 4a. flutuação à direita */
-    float: left;
+    float: right;
 
     /* 4b. largura fixa de 65% do elemento pai */
     width: 65%;
